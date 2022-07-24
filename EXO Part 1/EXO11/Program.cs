@@ -8,8 +8,11 @@ namespace EXO11 {
         static async Task Main(string[] args) {
 
             HttpResponseMessage response = await client.GetAsync("http://www.perdu.com/");
+            
             response.EnsureSuccessStatusCode();
+            
             string responseBody = await response.Content.ReadAsStringAsync();
+            
             Console.WriteLine(responseBody);
 
         }
@@ -17,7 +20,7 @@ namespace EXO11 {
 }
 
 
-//MODIF
+// MODIF
 // recherche internet ok
 // Result : 
 

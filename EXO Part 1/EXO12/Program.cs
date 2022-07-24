@@ -8,7 +8,9 @@ namespace EXO12 {
             High = 6
         }
         static void Main(string[] args) {
+            
             Level myVar = Level.Medium;
+            
             Console.WriteLine(myVar);
         }
 
@@ -16,5 +18,5 @@ namespace EXO12 {
 }
 
 
-//ERREUR
-//Result : 15
+// ERREUR
+// Result : 15

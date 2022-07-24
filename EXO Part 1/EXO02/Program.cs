@@ -6,9 +6,9 @@ namespace EXO2
     {
         static void Main(string[] args)
         {
-            string EXO2 = "Salut je suis "Psyko" et j'aime bien Dev des exo à 5h du mat XD"
+            string EXO2 = "Salut je suis "Psyko" et j'aime bien Dev des exo à 5h du mat XD";
 
-                Console.Write(EXO2);
+            Console.Write(EXO2);
 
         }
     }

@@ -10,4 +10,5 @@
 }
 
 // Erreur
+// Note: Le c# est sensible à la casse, il ne faut pas faire d'erreur quand on écrit 
 // RESULT : Hello World!

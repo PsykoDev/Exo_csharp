@@ -14,6 +14,7 @@ namespace EXO6
             dinosaurs.Add("Mamenchisaurus");
             dinosaurs.Add("Deinonychus");
             dinosaurs.Add("Compsognathus");
+            
             foreach (string dinosaur in dinosaurs)
             {
                 Console.WriteLine(dinosaur[1]);

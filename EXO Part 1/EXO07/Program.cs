@@ -8,8 +8,11 @@ namespace EXO7
         static void Main(string[] args)
         {
             Console.Write("Entre 10 ici: ");
+            
             int returnValue = int.Parse(Console.ReadLine());
+            
             if (returnValue != 10) return;
+            
             Console.WriteLine(returnValue);
         }
     }
